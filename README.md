@@ -15,7 +15,7 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 
 ## HelloWorld example
 
-'''
+
     // create an animator
  	SequentialAnimationRunner defaultAnimator = new SequentialAnimationRunner();
  	// build an animation and set destination
@@ -45,5 +45,5 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 	defaultAnimator.addAnimation(locationAnimation);
     // run animator
 	defaultAnimator.start();
-'''
+
 
