@@ -11,4 +11,39 @@ This branch differs from [master branch](https://github.com/anormal81/VividSwing
 
 ## Roadmap
 
-I don't plan to release ofter, but I plan to keep consistent with master release 
+I don't plan to release ofter, but I plan to keep consistent with master release
+
+## HelloWorld example
+
+'''
+    // create an animator
+ 	SequentialAnimationRunner defaultAnimator = new SequentialAnimationRunner();
+ 	// build an animation and set destination
+	LocationAnimation locationAnimation = new LocationAnimation(
+		element, btnTestButton.getLocationX() + 100,
+		element.getLocationY());
+	// add a listener to get some events
+	locationAnimation.addAnimationListener(new AnimationAdapter() {
+
+	    @Override
+	    public void animationStarted() {
+		   System.out.println("Animation started");
+	    }
+
+	    @Override
+	    public void animationUpdated() {
+		   System.out.println("Animation updated");
+	    }
+
+	    @Override
+	    public void animationFinished() {
+		   System.out.println("Animation finished");
+	    }
+
+	});
+    // add animation to animator
+	defaultAnimator.addAnimation(locationAnimation);
+    // run animator
+	defaultAnimator.start();
+'''
+
