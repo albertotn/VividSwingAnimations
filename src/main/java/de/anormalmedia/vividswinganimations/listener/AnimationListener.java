@@ -1,7 +1,8 @@
 package de.anormalmedia.vividswinganimations.listener;
 
 /**
- * A listener interface to be registered at animations for retrieving start and finish events.
+ * A listener interface to be registered at animations for retrieving start and
+ * finish events.
  */
 public interface AnimationListener {
 
@@ -14,5 +15,7 @@ public interface AnimationListener {
      * Called if an animation reached the duration time and finished.
      */
     void animationFinished();
+
+    void animationUpdated();
 
 }
