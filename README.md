@@ -46,4 +46,7 @@ I don't plan to release ofter, but I plan to keep consistent with master release
     // run animator
 	defaultAnimator.start();
 
+## How to build
+
+Install maven, clone repository and then use: maven clean install
 
