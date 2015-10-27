@@ -15,13 +15,11 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 
 ## HelloWorld example
 
-
-    // create an animator
- 	SequentialAnimationRunner defaultAnimator = new SequentialAnimationRunner();
- 	// build an animation and set destination
-	LocationAnimation locationAnimation = new LocationAnimation(
-		element, btnTestButton.getLocationX() + 100,
-		element.getLocationY());
+```java
+	// create an animator
+	SequentialAnimationRunner defaultAnimator = new SequentialAnimationRunner();
+	// build an animation and set destination
+	LocationAnimation locationAnimation = new LocationAnimation(element, btnTestButton.getLocationX() + 100,element.getLocationY());
 	// add a listener to get some events
 	locationAnimation.addAnimationListener(new AnimationAdapter() {
 
@@ -45,6 +43,7 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 	defaultAnimator.addAnimation(locationAnimation);
     // run animator
 	defaultAnimator.start();
+```
 
 ## How to build
 
