@@ -15,6 +15,8 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 
 ## HelloWorld example
 
+For complete and running example please see [HelloWorld](src/test/java/de/anormalmedia/vividswinganimations/demo/HelloWorld.java)
+
 ```java
 	// create an animator
 	SequentialAnimationRunner defaultAnimator = new SequentialAnimationRunner();
