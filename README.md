@@ -49,3 +49,7 @@ I don't plan to release ofter, but I plan to keep consistent with master release
 
 Install maven, clone repository and then use: maven clean install
 
+## License
+
+Apache License 2.0, see LICENSE file
+
